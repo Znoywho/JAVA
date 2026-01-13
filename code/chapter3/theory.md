@@ -52,7 +52,27 @@ int largeNum = 123_456_789; // also = 123456789
 > [!NOTE]
 > ***ONLY:*** *byte,short,char* ***->*** ***Int***    
 
+## Introducing Type Inference with Local Variables
 
+> [!NOTE]
+> ***VAR:*** Reversed type name
 
+> [!EXAMPLE]
+> ```java
+> var avg = 10.0;
+> // Instead of
+> double avg = 10.0;
+> ```
 
+> [!WARNING]
+> ***Some Var Restriction***
+> ```var myArray = new int[10];``` -> **Valid** 
+> ```var myArray = { 1, 2, 3 };``` -> **Wrong** 
 
+> [!ATTENTION]
+> **Var cannot be used as**
+> - class 
+> - reference 
+> - enumeration  
+> - annotation
+> - the name of generic type paramater 
