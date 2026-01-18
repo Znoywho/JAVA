@@ -11,12 +11,12 @@
 
 |OPERATORS|Result|
 |:---: | :---: |
-|~| Bitwise unary NOTE |
+|~|Bitwise unary NOTE |
 | "Straigth line" | Bitwise OR    |
 |^| Bitwise exclusive -(A->B)   |
-| '>>'   | Shift right   |
-| <<   | Shift left   |
-| &=   | Bitwise AND assignment   |
+|'>>'|Shift right|
+|<<| Shift left   |
+|&=| Bitwise AND assignment   |
 | "Straigth line"=   | Bitwise OR assignment   |
 | ^=   | Bitwise exclusive OR assignment   |
 | >>=   | Shift right assignment   |
@@ -24,7 +24,13 @@
 | <<=   | Shift left assignment   |
 
 
-
+> [!NOTE]
+> ***Hexadeimal Number*** represented by:
+> ```java
+> int num = 0xFFFFFFE;
+> // OR 
+> int num = 0xffffffe;
+> ```
 
 
 
