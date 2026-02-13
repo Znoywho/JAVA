@@ -1,6 +1,6 @@
 # Variable Types
 |Types|Width|
-| --- | --- |
+|:---: | :---: |
 | long   | 64   |
 | int  | 32    |
 | short   | 16   |

@@ -7,7 +7,7 @@ java Example -> run compiled file
 
 ```
 
-```start.java
+```Example.java
 class Example {
   public static void main(String args[]) { // *main function* -> Begin executing
                                            // 'public' can use outside of the class 
@@ -18,6 +18,4 @@ class Example {
     // 'out' -> output
   }
 }
-
-
 ``` 
